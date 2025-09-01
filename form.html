@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+  <title>GSW Fan Survey</title>
+  <style>
+    form {
+      background-color: blue;
+      color: white;
+      width: 500px;
+    }
+    textarea {
+      background-color: gold;
+
+
+    }
+    input[type="submit"], input[type="reset"] {
+      background-color: gold;
+      color: black;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+    <nav>
+        <a href="homepage.html">Home</a> 
+        &nbsp;&nbsp;&nbsp;<a href="table1.html">Player Stats</a> 
+        &nbsp;&nbsp;&nbsp;<a href="form.html" target="_blank">Form</a>
+        &nbsp;&nbsp;&nbsp;<a href="https://www.nba.com/warriors/" target="_blank">Official Site</a>
+    </nav>
+  <hr>
+
+  <h1>Golden State Warriors Fan Survey</h1>
+
+  <form>
+    <label for="player">Favorite Player:</label>
+    <select id="player" name="player">
+        <option value="select">-select-</option>
+      <option value="curry">Stephen Curry</option>
+      <option value="klay">Klay Thompson</option>
+      <option value="draymond">Draymond Green</option>
+      <option value="wiggins">Andrew Wiggins</option>
+      <option value="other">Other</option>
+    </select><br>
+
+    <fieldset>
+      <legend>How long have you been a GSW fan?</legend>
+      <label><input type="radio" name="years" value="0-2"> 0–2 years</label><br>
+      <label><input type="radio" name="years" value="3-5"> 3–5 years</label><br>
+      <label><input type="radio" name="years" value="6-10"> 6–10 years</label><br>
+      <label><input type="radio" name="years" value="10+"> 10+ years</label>
+    </fieldset><br>
+
+    <label for="comments">Favorite Warriors Memory to win a free ticket!:</label><br>
+    <textarea id="comments" name="comments">Answer here...</textarea><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+
+</body>
